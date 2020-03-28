@@ -4,9 +4,9 @@ const app = express();
 
 app.get("/", async (req, res) => {
   // res.send("fff")
-  await axios.get("http://localhost:5000/", {
-    timeout: 100000
-  })
+  // await axios.get("http://localhost:5000/", {
+  //   timeout: 100000
+  // })
 })
 
 const server = app.listen(4000, ()=> {
